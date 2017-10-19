@@ -29,7 +29,7 @@ package foo
 
 private fun foo() {} // 在example.kt可见
 
-public var bar: Int = 5 // 属性在认可地方都可见
+public var bar: Int = 5 // 属性在任何地方都可见
 	private set // setter仅在example.kt中可见
 
 internal val baz = 6 // 在同一module中可见
