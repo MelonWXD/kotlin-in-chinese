@@ -11,7 +11,7 @@ data class User(val name: String, val age: Int)
 
 > `toString` 格式是 "User(name=john, age=42)"
 
-> [compontN()functions] (http://kotlinlang.org/docs/reference/multi-declarations.html) 对应按声明顺序出现的所有属性
+> [compontN()functions](http://kotlinlang.org/docs/reference/multi-declarations.html) 对应按声明顺序出现的所有属性
 
 > `copy()` 函数
 
